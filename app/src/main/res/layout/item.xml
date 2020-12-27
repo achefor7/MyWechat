@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <!--左侧的图片布局盒子-->
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/item_goods_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/tab_goods"
+            android:background="#DFDFDF"/>
+    </LinearLayout>
+    <!--右侧文字盒子布局-->
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical">
+        <!--名字TextView所在盒子布局-->
+        <LinearLayout
+            android:id="@+id/ll_2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/item_goods_name"
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:text=""
+                android:textSize="20sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!--价格TextView所在盒子布局-->
+        <LinearLayout
+            android:id="@+id/ll_2_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/item_goods_price"
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:text=""
+                android:textSize="20sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

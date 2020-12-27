@@ -12,6 +12,9 @@ import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
+//import android.support.v4.app.FragmentManager;
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private LinearLayout mTabchat;
